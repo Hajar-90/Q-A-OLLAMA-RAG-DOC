@@ -7,19 +7,6 @@ Welcome to the Q-A-OLLAMA-RAG-DOC documentation!
 This is the documentation for the **Q-A-OLLAMA-RAG-DOC** project. 
 Here you can find all the details regarding the setup, usage, and features of this app.
 
-Contents
----------
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   about_the_app
-   features
-   installation
-   usage
-   app_architecture
-   configuration
-
 About the App
 -------------
 The **Q-A-OLLAMA-RAG-DOC** app is a powerful tool that integrates advanced Natural Language Processing (NLP) techniques to allow users to query large document collections and receive context-aware answers. This app combines **Ollama**, a sophisticated language generation model, with **Retrieval Augmented Generation (RAG)** techniques, enhancing the process of querying and generating accurate, relevant responses from documents.
