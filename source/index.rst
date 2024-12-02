@@ -18,9 +18,7 @@ Contents
    installation
    usage
    app_architecture
-   troubleshooting
    configuration
-   license
 
 About the App
 -------------
