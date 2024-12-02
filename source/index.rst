@@ -94,4 +94,15 @@ To install the **Q-A-OLLAMA-RAG-DOC** app, follow these steps:
 
    ```bash
    git clone https://github.com/Hajar-90/Q-A-OLLAMA-RAG-DOC.git
+Usage
+-----
+Once the **Q-A-OLLAMA-RAG-DOC** app is installed and running, you can start using it by following these steps:
+
+1. **Run the application**:
+
+   Start the app by running the following command:
+
+   ```bash
+   python app.py
+
 
