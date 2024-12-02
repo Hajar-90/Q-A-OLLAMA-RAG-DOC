@@ -1,0 +1,17 @@
+Features of Q-A-OLLAMA-RAG-DOC
+=============================
+
+1. **Context-Aware Question Answering**:
+   The system uses Retrieval-Augmented Generation (RAG) to answer queries by first retrieving the most relevant documents and then generating accurate responses.
+
+2. **Customizable Document Collection**:
+   Users can customize the knowledge base by adding various document types such as text files, PDFs, etc.
+
+3. **Pre-trained NLP Models**:
+   The app uses cutting-edge NLP models for both retrieval and generation tasks, ensuring high-quality results.
+
+4. **User-Friendly Interface**:
+   The application has a clean and easy-to-use interface for both developers and non-developers to interact with.
+
+5. **Extensible & Scalable**:
+   The code is modular and designed to be scalable, making it easy to extend for larger datasets or integrate with other services.
