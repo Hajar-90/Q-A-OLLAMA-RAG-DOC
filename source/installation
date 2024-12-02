@@ -1,0 +1,11 @@
+Installation Instructions
+========================
+
+To get started with the Q-A-OLLAMA-RAG-DOC project, follow the steps below:
+
+1. **Clone the Repository**:
+   Clone the repository to your local machine using Git:
+   
+   ```bash
+   git clone https://github.com/yourusername/Q-A-OLLAMA-RAG-DOC.git
+   cd Q-A-OLLAMA-RAG-DOC
