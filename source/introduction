@@ -1,0 +1,14 @@
+Introduction
+============
+
+Welcome to the Q-A-OLLAMA-RAG-DOC project!
+
+Q-A-OLLAMA-RAG-DOC is an advanced **Question Answering System** that integrates **Retrieval-Augmented Generation (RAG)** to provide accurate and context-aware answers from a document collection. The app processes user queries and retrieves the most relevant information from a knowledge base, then generates an answer using a pre-trained model. This documentation will guide you through the installation, usage, and technical details of the project.
+
+Features
+--------
+- Retrieval-Augmented Generation (RAG) architecture for better context handling.
+- Efficient querying of document collections.
+- Customizable settings for different types of knowledge bases.
+- Integration with modern NLP tools and pre-trained models.
+- Provides answers to user queries by synthesizing information from various sources.
