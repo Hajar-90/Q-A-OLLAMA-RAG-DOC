@@ -1,7 +1,11 @@
+.. Q-A-OLLAMA-RAG-DOC documentation master file, created by
+   sphinx-quickstart on Sun Dec 02 2024.
+
 Welcome to the Q-A-OLLAMA-RAG-DOC documentation!
 =================================================
 
-Welcome to the official documentation for the **Q-A-OLLAMA-RAG-DOC** project. This project integrates the **Ollama** framework with **Retrieval Augmented Generation (RAG)** to provide a robust solution for querying and generating documents in a highly efficient manner. This documentation provides comprehensive information on how to set up, use, and modify the project.
+This is the documentation for the **Q-A-OLLAMA-RAG-DOC** project. 
+Here you can find all the details regarding the setup, usage, and features of this app.
 
 Contents
 ---------
@@ -9,31 +13,35 @@ Contents
    :maxdepth: 2
    :caption: Contents:
 
-   introduction
+   about_the_app
+   features
    installation
    usage
-   features
-   configuration
-   models
+   app_architecture
    troubleshooting
+   configuration
+   license
 
-Introduction
+About the App
 -------------
-The **Q-A-OLLAMA-RAG-DOC** project combines **Ollama**, a powerful language model, with **Retrieval Augmented Generation (RAG)** techniques to answer complex questions and generate useful document-based outputs. The integration of Ollama and RAG enables us to enhance the quality and relevance of answers by leveraging large document collections, such as the ones that can be retrieved using vector databases.
+The **Q-A-OLLAMA-RAG-DOC** app integrates **Ollama** with **Retrieval Augmented Generation (RAG)** techniques to improve document-based querying and response generation. 
+This app allows you to efficiently query a document collection and generate relevant answers based on it.
 
-This section outlines the purpose of the project, its key technologies, and the problems it aims to solve.
-
-Technologies Used:
-- **Ollama** (Language Model Framework)
-- **RAG** (Retrieval Augmented Generation for improved query-response systems)
-- **Vector Databases** (for indexing and querying document embeddings)
+Key Features
+-------------
+1. **Document Retrieval and Question Answering**
+2. **Retrieval Augmented Generation (RAG)**
+3. **Support for Multiple Models**
+4. **Vector Database Integration**
+5. **Custom Query Interface**
+6. **Dynamic Model Switching**
 
 Installation
 -------------
-To get started with **Q-A-OLLAMA-RAG-DOC**, you need to install the necessary dependencies.
+To install the **Q-A-OLLAMA-RAG-DOC** app, follow these steps:
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/your-repository/Q-A-OLLAMA-RAG-DOC.git
-   cd Q-A-OLLAMA-RAG-DOC
+   git clone https://github.com/Hajar-90/Q-A-OLLAMA-RAG-DOC.git
 
