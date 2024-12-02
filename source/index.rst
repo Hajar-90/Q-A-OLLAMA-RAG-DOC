@@ -88,7 +88,7 @@ Once the **Q-A-OLLAMA-RAG-DOC** app is installed and running, you can start usin
    Start the app by running the following command:
 
    ```bash
-   python app.py
+   python DOC QA.py
 App Architecture
 ----------------
 The **Q-A-OLLAMA-RAG-DOC** app follows a modular and scalable architecture, designed to efficiently handle document-based querying and response generation using Retrieval Augmented Generation (RAG) techniques. The app's architecture is divided into several key components, each playing a specific role in ensuring smooth and efficient operation.
