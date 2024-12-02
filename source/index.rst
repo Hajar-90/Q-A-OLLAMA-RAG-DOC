@@ -106,7 +106,7 @@ App Architecture
 ----------------
 The **Q-A-OLLAMA-RAG-DOC** app follows a modular and scalable architecture, designed to efficiently handle document-based querying and response generation using Retrieval Augmented Generation (RAG) techniques. The app's architecture is divided into several key components, each playing a specific role in ensuring smooth and efficient operation.
 
-### 1. Document Collection
+ 1. Document Collection
 The document collection consists of a set of documents stored either in local files or a database. These documents are pre-processed and converted into embeddings, which are vector representations of the text that allow for efficient similarity-based retrieval.
 
 - **Embedding Generation**: The documents are indexed and transformed into embeddings using an NLP model (e.g., BERT, GPT, or Ollama). This process helps the system to understand the semantic meaning of the documents, making them searchable based on similarity to the user query.
