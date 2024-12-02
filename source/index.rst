@@ -125,7 +125,7 @@ Once relevant documents are retrieved, the app uses a language generation model 
 
 - **Model Selection**: The app allows the user to dynamically select and switch between different NLP models, depending on the complexity of the task or the preferred output quality.
 
-### 4. User Interface
+ 4. User Interface
 The user interface provides the means for users to interact with the app, whether through a command-line interface (CLI) or a web-based graphical user interface (GUI).
 
 - **Command-Line Interface (CLI)**: The app provides a simple CLI for querying the system and receiving responses directly from the terminal.
