@@ -24,17 +24,24 @@ Contents
 
 About the App
 -------------
-The **Q-A-OLLAMA-RAG-DOC** app integrates **Ollama** with **Retrieval Augmented Generation (RAG)** techniques to improve document-based querying and response generation. 
-This app allows you to efficiently query a document collection and generate relevant answers based on it.
+The **Q-A-OLLAMA-RAG-DOC** app is a powerful tool that integrates advanced Natural Language Processing (NLP) techniques to allow users to query large document collections and receive context-aware answers. This app combines **Ollama**, a sophisticated language generation model, with **Retrieval Augmented Generation (RAG)** techniques, enhancing the process of querying and generating accurate, relevant responses from documents.
 
-Key Features
--------------
-1. **Document Retrieval and Question Answering**
-2. **Retrieval Augmented Generation (RAG)**
-3. **Support for Multiple Models**
-4. **Vector Database Integration**
-5. **Custom Query Interface**
-6. **Dynamic Model Switching**
+The key purpose of the app is to enable users to retrieve the most relevant documents from a large collection based on a user's query and generate human-like, informative answers. The process is done in two steps:
+1. **Document Retrieval**: The system first fetches documents from a stored collection that are most relevant to the query, using vector embeddings and similarity measures.
+2. **Text Generation**: Once the relevant documents are retrieved, the app uses an advanced language model (e.g., Ollama) to generate a natural, coherent answer that directly addresses the user's question. This step ensures that the answer is not only based on relevant documents but is also context-aware and tailored to the specific query.
+
+By combining document retrieval and language generation, the **Q-A-OLLAMA-RAG-DOC** app improves the accuracy and quality of responses, making it ideal for tasks such as document-based question answering, information retrieval, and knowledge extraction.
+
+### Key Functionalities:
+- **Enhanced Query Responses**: The app uses both retrieval and generation methods to provide more accurate and informative answers to user queries.
+- **Efficient Document Retrieval**: It retrieves only the most pertinent documents using vector database embeddings, ensuring faster and more relevant search results.
+- **Support for Multiple Models**: The app allows users to choose from a variety of NLP models, offering flexibility for different use cases and improving response quality.
+- **Dynamic Switching of Models**: Users can switch between different models dynamically, ensuring the best possible performance for different types of queries.
+
+The integration of RAG techniques within this app helps users navigate large volumes of documents and quickly generate relevant insights, making it an ideal solution for research, customer support, content summarization, and more.
+
+Overall, the **Q-A-OLLAMA-RAG-DOC** app provides a seamless experience for extracting valuable information from a document collection and generating high-quality, contextually accurate answers.
+
 
 Installation
 -------------
