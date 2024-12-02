@@ -104,5 +104,52 @@ Once the **Q-A-OLLAMA-RAG-DOC** app is installed and running, you can start usin
 
    ```bash
    python app.py
+App Architecture
+----------------
+The **Q-A-OLLAMA-RAG-DOC** app follows a modular and scalable architecture, designed to efficiently handle document-based querying and response generation using Retrieval Augmented Generation (RAG) techniques. The app's architecture is divided into several key components, each playing a specific role in ensuring smooth and efficient operation.
+
+### 1. Document Collection
+The document collection consists of a set of documents stored either in local files or a database. These documents are pre-processed and converted into embeddings, which are vector representations of the text that allow for efficient similarity-based retrieval.
+
+- **Embedding Generation**: The documents are indexed and transformed into embeddings using an NLP model (e.g., BERT, GPT, or Ollama). This process helps the system to understand the semantic meaning of the documents, making them searchable based on similarity to the user query.
+  
+### 2. Retrieval System
+The retrieval system is responsible for fetching the most relevant documents based on the user's query. This system uses the embeddings stored in the vector database to find the closest matches to the query.
+
+- **Vector Database**: The vector database stores the embeddings of the documents, enabling fast similarity-based search. Popular vector databases like **FAISS** or **Pinecone** can be integrated to facilitate efficient search and retrieval of relevant documents.
+  
+- **Retrieval Method**: The retrieval process involves using similarity search (e.g., cosine similarity, dot product) to compare the query embedding with the document embeddings. Once the closest documents are identified, they are retrieved and passed to the next component.
+
+### 3. Language Generation Model
+Once relevant documents are retrieved, the app uses a language generation model (such as **Ollama**) to generate an answer based on the content of the retrieved documents. This component enhances the system's ability to answer specific queries by synthesizing new content that directly addresses the user's request.
+
+- **Retrieval Augmented Generation (RAG)**: The RAG approach combines document retrieval and language generation in a seamless way. The retrieved documents provide the context for the language model to generate highly relevant and accurate responses.
+
+- **Model Selection**: The app allows the user to dynamically select and switch between different NLP models, depending on the complexity of the task or the preferred output quality.
+
+### 4. User Interface
+The user interface provides the means for users to interact with the app, whether through a command-line interface (CLI) or a web-based graphical user interface (GUI).
+
+- **Command-Line Interface (CLI)**: The app provides a simple CLI for querying the system and receiving responses directly from the terminal.
+  
+- **Web Interface**: If the app supports a web interface, it typically runs a local server (e.g., Flask, FastAPI) to allow users to interact with the system via a web browser.
+
+### 5. Configuration Management
+All the settings for the app, including paths to documents, vector database configurations, and model settings, are stored in a configuration file (`config.json`). This file allows users to easily adjust the behavior of the app without modifying the core code.
+
+- **config.json**: This JSON file contains key-value pairs for settings like document paths, database configurations, model choices, and retrieval methods. By modifying this file, users can customize the app's performance and behavior according to their specific needs.
+
+Example of a `config.json` file:
+
+```json
+{
+   "document_path": "path/to/your/documents",
+   "vector_db": "path/to/vector/database",
+   "model": "ollama_model_name",
+   "retrieval_method": "similarity_search",
+   "generation_method": "rag",
+   "log_level": "info"
+}
+
 
 
