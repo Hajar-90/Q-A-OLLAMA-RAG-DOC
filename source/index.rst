@@ -1,7 +1,7 @@
 .. Q-A-OLLAMA-RAG-DOC documentation master file, created by
    sphinx-quickstart on Sun Dec 02 2024.
 
- to the Q-A-OLLAMA-RAG-DOC documentation!
+Welcome to the Q-A-OLLAMA-RAG-DOC documentation!
 =================================================
 
 This is the documentation for the **Q-A-OLLAMA-RAG-DOC** project. 
