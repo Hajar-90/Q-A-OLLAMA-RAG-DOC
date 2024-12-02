@@ -30,7 +30,7 @@ The key purpose of the app is to enable users to retrieve the most relevant docu
 
 By combining document retrieval and language generation, the **Q-A-OLLAMA-RAG-DOC** app improves the accuracy and quality of responses, making it ideal for tasks such as document-based question answering, information retrieval, and knowledge extraction.
 
-### Key Functionalities:
+ Key Functionalities:
 - **Enhanced Query Responses**: The app uses both retrieval and generation methods to provide more accurate and informative answers to user queries.
 - **Efficient Document Retrieval**: It retrieves only the most pertinent documents using vector database embeddings, ensuring faster and more relevant search results.
 - **Support for Multiple Models**: The app allows users to choose from a variety of NLP models, offering flexibility for different use cases and improving response quality.
@@ -111,14 +111,14 @@ The document collection consists of a set of documents stored either in local fi
 
 - **Embedding Generation**: The documents are indexed and transformed into embeddings using an NLP model (e.g., BERT, GPT, or Ollama). This process helps the system to understand the semantic meaning of the documents, making them searchable based on similarity to the user query.
   
-### 2. Retrieval System
+ 2. Retrieval System
 The retrieval system is responsible for fetching the most relevant documents based on the user's query. This system uses the embeddings stored in the vector database to find the closest matches to the query.
 
 - **Vector Database**: The vector database stores the embeddings of the documents, enabling fast similarity-based search. Popular vector databases like **FAISS** or **Pinecone** can be integrated to facilitate efficient search and retrieval of relevant documents.
   
 - **Retrieval Method**: The retrieval process involves using similarity search (e.g., cosine similarity, dot product) to compare the query embedding with the document embeddings. Once the closest documents are identified, they are retrieved and passed to the next component.
 
-### 3. Language Generation Model
+ 3. Language Generation Model
 Once relevant documents are retrieved, the app uses a language generation model (such as **Ollama**) to generate an answer based on the content of the retrieved documents. This component enhances the system's ability to answer specific queries by synthesizing new content that directly addresses the user's request.
 
 - **Retrieval Augmented Generation (RAG)**: The RAG approach combines document retrieval and language generation in a seamless way. The retrieved documents provide the context for the language model to generate highly relevant and accurate responses.
@@ -132,7 +132,7 @@ The user interface provides the means for users to interact with the app, whethe
   
 - **Web Interface**: If the app supports a web interface, it typically runs a local server (e.g., Flask, FastAPI) to allow users to interact with the system via a web browser.
 
-### 5. Configuration Management
+ 5. Configuration Management
 All the settings for the app, including paths to documents, vector database configurations, and model settings, are stored in a configuration file (`config.json`). This file allows users to easily adjust the behavior of the app without modifying the core code.
 
 - **config.json**: This JSON file contains key-value pairs for settings like document paths, database configurations, model choices, and retrieval methods. By modifying this file, users can customize the app's performance and behavior according to their specific needs.
